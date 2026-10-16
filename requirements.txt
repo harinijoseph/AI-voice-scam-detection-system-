@@ -1,0 +1,17 @@
+datasets
+huggingface-hub
+soundfile
+librosa
+scikit-learn
+pandas
+streamlit
+plotly
+pytest
+torch
+torchaudio
+SpeechRecognition
+fastapi
+uvicorn
+pydantic
+python-multipart
+opentelemetry-api

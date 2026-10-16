@@ -1,0 +1,140 @@
+{
+  "run_id": "eval_run_1791316424",
+  "title": "Test Run N=10",
+  "notes": "Verified test",
+  "timestamp": 1791316424,
+  "date_str": "2026-10-07 01:23:44",
+  "data": {
+    "total_evaluated": 10,
+    "elapsed_seconds": 1.6,
+    "avg_latency_ms": 160.2,
+    "metrics": {
+      "accuracy": 60.0,
+      "precision": 100.0,
+      "recall": 20.0,
+      "f1_score": 33.3,
+      "false_positive_rate": 0.0,
+      "false_negative_rate": 80.0
+    },
+    "confusion_matrix": {
+      "true_positives": 1,
+      "true_negatives": 5,
+      "false_positives": 0,
+      "false_negatives": 4,
+      "total_human_tested": 5,
+      "total_synthetic_tested": 5
+    },
+    "sample_results": [
+      {
+        "filename": "df7de151-d9d9-44fa-9efd-a767c81fc6e2_9fTPwBf5QY4MLQVWxNKpLSWnEQN_Hwnx.mp3",
+        "category": "nonhuman",
+        "true_label": "AI Synthetic",
+        "predicted_label": "Authentic Human",
+        "synthetic_probability": 0.4085,
+        "synthetic_pct": 40.8,
+        "correct": false,
+        "latency_ms": 91.2,
+        "audio_url": "/api/benchmarks/dataset/audio/nonhuman/df7de151-d9d9-44fa-9efd-a767c81fc6e2_9fTPwBf5QY4MLQVWxNKpLSWnEQN_Hwnx.mp3"
+      },
+      {
+        "filename": "7b9bf757-8924-45d5-8d51-103f1a894857_EvVmc1ObcVQMk7l-9k0p-QE7KO1VqNKs.mp3",
+        "category": "nonhuman",
+        "true_label": "AI Synthetic",
+        "predicted_label": "Authentic Human",
+        "synthetic_probability": 0.4084,
+        "synthetic_pct": 40.8,
+        "correct": false,
+        "latency_ms": 350.9,
+        "audio_url": "/api/benchmarks/dataset/audio/nonhuman/7b9bf757-8924-45d5-8d51-103f1a894857_EvVmc1ObcVQMk7l-9k0p-QE7KO1VqNKs.mp3"
+      },
+      {
+        "filename": "b5028b56-34a2-408f-ab8a-6b6ea1e18508_Ijqzwj1jUW-Ks09lnXKZp-F-eiFplTsC.mp3",
+        "category": "nonhuman",
+        "true_label": "AI Synthetic",
+        "predicted_label": "Authentic Human",
+        "synthetic_probability": 0.3891,
+        "synthetic_pct": 38.9,
+        "correct": false,
+        "latency_ms": 211.7,
+        "audio_url": "/api/benchmarks/dataset/audio/nonhuman/b5028b56-34a2-408f-ab8a-6b6ea1e18508_Ijqzwj1jUW-Ks09lnXKZp-F-eiFplTsC.mp3"
+      },
+      {
+        "filename": "7c5e0c6b-f7da-4474-acca-080b8bcec2fa_s2qNBd98mrMj8SFCVSDczE3LD1NG2emK.mp3",
+        "category": "human",
+        "true_label": "Authentic Human",
+        "predicted_label": "Authentic Human",
+        "synthetic_probability": 0.2626,
+        "synthetic_pct": 26.3,
+        "correct": true,
+        "latency_ms": 132.9,
+        "audio_url": "/api/benchmarks/dataset/audio/human/7c5e0c6b-f7da-4474-acca-080b8bcec2fa_s2qNBd98mrMj8SFCVSDczE3LD1NG2emK.mp3"
+      },
+      {
+        "filename": "NkHNI9P6pvCtpevVe8qmn3yi0p5RAPme.mp3",
+        "category": "human",
+        "true_label": "Authentic Human",
+        "predicted_label": "Authentic Human",
+        "synthetic_probability": 0.4305,
+        "synthetic_pct": 43.0,
+        "correct": true,
+        "latency_ms": 96.9,
+        "audio_url": "/api/benchmarks/dataset/audio/human/NkHNI9P6pvCtpevVe8qmn3yi0p5RAPme.mp3"
+      },
+      {
+        "filename": "4df7cca0-507e-4d37-88ee-f832e0ff2ffc_FXDDGsAyfvTe_QPiKdny4aQbdjQziVb-.mp3",
+        "category": "nonhuman",
+        "true_label": "AI Synthetic",
+        "predicted_label": "Authentic Human",
+        "synthetic_probability": 0.4253,
+        "synthetic_pct": 42.5,
+        "correct": false,
+        "latency_ms": 218.5,
+        "audio_url": "/api/benchmarks/dataset/audio/nonhuman/4df7cca0-507e-4d37-88ee-f832e0ff2ffc_FXDDGsAyfvTe_QPiKdny4aQbdjQziVb-.mp3"
+      },
+      {
+        "filename": "9ec13a21-9a61-4d44-aca6-fe5be40d1349_tUtMfCitTtS8taCoJMiKZlkx-pBXAW5o.mp3",
+        "category": "human",
+        "true_label": "Authentic Human",
+        "predicted_label": "Authentic Human",
+        "synthetic_probability": 0.1867,
+        "synthetic_pct": 18.7,
+        "correct": true,
+        "latency_ms": 97.4,
+        "audio_url": "/api/benchmarks/dataset/audio/human/9ec13a21-9a61-4d44-aca6-fe5be40d1349_tUtMfCitTtS8taCoJMiKZlkx-pBXAW5o.mp3"
+      },
+      {
+        "filename": "c31d8756-f735-4146-a3d3-964de590c348_pzCx9ocqmvaDKj_3gG4s7m1bj-ym-zSI.mp3",
+        "category": "human",
+        "true_label": "Authentic Human",
+        "predicted_label": "Authentic Human",
+        "synthetic_probability": 0.3836,
+        "synthetic_pct": 38.4,
+        "correct": true,
+        "latency_ms": 119.9,
+        "audio_url": "/api/benchmarks/dataset/audio/human/c31d8756-f735-4146-a3d3-964de590c348_pzCx9ocqmvaDKj_3gG4s7m1bj-ym-zSI.mp3"
+      },
+      {
+        "filename": "7ab1707b-4665-435b-8a34-dfd6bf8de519_juy52Ha1Bzf7fzv6q6dCfPYPs-TU30st.mp3",
+        "category": "nonhuman",
+        "true_label": "AI Synthetic",
+        "predicted_label": "AI Synthetic",
+        "synthetic_probability": 0.9431,
+        "synthetic_pct": 94.3,
+        "correct": true,
+        "latency_ms": 163.4,
+        "audio_url": "/api/benchmarks/dataset/audio/nonhuman/7ab1707b-4665-435b-8a34-dfd6bf8de519_juy52Ha1Bzf7fzv6q6dCfPYPs-TU30st.mp3"
+      },
+      {
+        "filename": "a542bfbd-f637-49ac-a493-de1230d56f6b_n8U5eCEUQvjPKQ3t_6W3bg9hqJl0e8VL.mp3",
+        "category": "human",
+        "true_label": "Authentic Human",
+        "predicted_label": "Authentic Human",
+        "synthetic_probability": 0.4151,
+        "synthetic_pct": 41.5,
+        "correct": true,
+        "latency_ms": 119.1,
+        "audio_url": "/api/benchmarks/dataset/audio/human/a542bfbd-f637-49ac-a493-de1230d56f6b_n8U5eCEUQvjPKQ3t_6W3bg9hqJl0e8VL.mp3"
+      }
+    ]
+  }
+}
