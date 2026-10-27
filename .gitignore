@@ -4,3 +4,22 @@ venv/
 __pycache__/
 *.pyc
 .DS_Store
+
+# Academic reports & documentation
+FINAL DOC/
+PROJECT_WORK_DIARY_AI_VOICE_SCAM.docx
+PROJECT_REPORT.md
+REVIEW_1_REPORT.md
+FINAL_DOC_FULL_DUMP.txt
+FINAL_DOC_INSPECT.txt
+test_page_num.docx
+test_table_style.docx
+build_full_report.py
+generate_final_report.py
+generate_mtech_report.py
+generate_project_diary.py
+
+# Implementation plan & guide
+AI_Voice_Scam_Detection_Implementation_and_ELI5_Guide.pdf
+generate_voxsentinel_pdf.py
+
